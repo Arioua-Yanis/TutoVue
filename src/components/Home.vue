@@ -2,7 +2,7 @@
 <Page>
     <Label text = "homepage" />
    <StackLayout>
-        <Button text="To Details directly" @tap="Datego(DatePicker)" />
+        <Button text="Voir le Date Picker" @tap="Datego(DatePicker)" />
       </StackLayout>
     
     </Page>
