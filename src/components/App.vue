@@ -6,10 +6,12 @@
             <Label class="message" :text="msg" col="0" row="0" @tap="changeScreen"/>
         </GridLayout>
         
+        
     </Page>
 </template>
 
 <script >
+import DatePicker from './DatePicker'
 import HomeVue from './Home.vue'
   export default {
     data() {

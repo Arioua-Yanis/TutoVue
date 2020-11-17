@@ -1,16 +1,19 @@
 <template>
 <Page>
     <Label text = "homepage" />
-    <Button text="Button" @tap="onButtonTap" />
+   <StackLayout>
+        <Button text="To Details directly" @tap="Datego(DatePicker)" />
+      </StackLayout>
     
     </Page>
 </template>
 
 <script>
+import DatePickerVue from './DatePicker.vue'
 export default {
     methods :{
-        onButtonTap(){
-            this.$navigateBack()
+        Datego(){
+             this.$navigateTo(DatePickerVue)
         }
     }
     
